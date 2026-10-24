@@ -7,6 +7,7 @@ Tu bodega no necesita más espacio. Necesita orden 📦
 ✅ Más espacio aprovechando la altura
 ✅ Más orden con racks a la medida de tu operación
 ✅ Más seguridad para tu equipo y tu mercadería
+✅ Cobertura a nivel nacional
 
 Agenda tu visita técnica.
 
@@ -31,6 +32,7 @@ Antes de alquilar más metros, vale la pena revisar cómo se usa el espacio actu
 ✅ Más espacio aprovechando la altura
 ✅ Más orden con el sistema adecuado para lo que almacenas
 ✅ Más seguridad para tu equipo y tu mercadería
+✅ Cobertura a nivel nacional
 
 ¿Cuánto espacio de tu bodega está ocupado por desorden?
 
@@ -52,7 +54,7 @@ CALIDAD Y CONFIANZA A TIEMPO
 
 ✅ Rack selectivo para pallets
 ✅ Perchas para cajas y picking
-✅ Montaje en sitio con nuestro equipo
+✅ Montaje en sitio con nuestro equipo, a nivel nacional
 
 Agenda tu visita técnica.
 
@@ -76,7 +78,7 @@ La altura libre es el espacio más desaprovechado en muchas bodegas. Con el sist
 
 ✅ Rack selectivo: 1.000 kg por pallet y 2.000 kg por nivel, con carga distribuida
 ✅ Perchas de picking: 500 kg por nivel
-✅ Montaje en sitio con nuestro equipo
+✅ Montaje en sitio con nuestro equipo, a nivel nacional
 
 ¿Cuántos metros de altura tiene tu bodega y cuántos usas hoy?
 
