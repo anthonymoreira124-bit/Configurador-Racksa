@@ -1,0 +1,21 @@
+,RACKSA ECUADOR · Base de prospectos y CRM nacional
+,Preparado el 25/10/2026 · 24 provincias · 93 empresas
+,Cómo usarlo
+,"1. «Prospectos»: empresas con bodega por provincia, con sector, necesidad probable y producto sugerido. Prioridad A = empezar aquí."
+,"2. Para cada empresa, abre el enlace «Buscar decisor en LinkedIn» y busca Jefe de Logística, Bodega, Operaciones o Compras."
+,"3. «Mensajes»: elige el sector y el canal (LinkedIn, WhatsApp o correo) y personaliza [Nombre] y [Empresa]."
+,"4. «CRM»: registra cada contacto. Cambia el Estado con la lista, anota la última llamada y el próximo paso con fecha."
+,   La fila se pinta en rojo si el próximo paso está vencido y en amarillo si es en los próximos 3 días.
+,5. «Resumen»: cuenta automática por estado y por región.
+,Ritmo sugerido
+,• 10 contactos nuevos por día (5 LinkedIn + 5 correo/WhatsApp). Seguimiento a los 3 días y a los 7 días. Tras 3 intentos sin respuesta: «Perdido / sin respuesta» y reintentar en 3 meses.
+,"• Al enviar una proforma, cambia el estado y programa la llamada de seguimiento a los 3 días."
+,Sobre los datos
+,"• Solo datos públicos de empresas. Fuentes: ranking de ventas por provincia de Primicias (con datos de Supercias), ranking Manabí de El Diario, top Azuay de El Mercurio y webs oficiales."
+,• Teléfonos y correos marcados «Sí» en la columna Verificado se copiaron de la web oficial el 25-oct-2026. El resto: revisar la web o Google Maps (enlace incluido) antes de llamar.
+,"• Los teléfonos generales llevan a recepción: pide el área de Logística, Bodega o Compras. Para empresas grandes, regístrate también como proveedor en su portal."
+,Automatización de correos
+,"• Sube este archivo a Google Drive, ábrelo como Hoja de cálculo de Google y pega el script RACKSA_borradores_automaticos.gs (guía en AUTOMATIZACION_CORREOS.md)."
+,"• Cada día hábil a las 9:00 el script deja en Borradores de Gmail el primer correo y los seguimientos (3 y 7 días hábiles), detecta lo que enviaste, las respuestas y los rebotes, y actualiza el CRM. Tú solo revisas y das Enviar."
+,"• Ajusta tu firma y el límite diario en la hoja «Config». Para que se preparen más correos, completa la columna «Correo» del CRM."
+,"• Los mensajes solo usan datos aprobados (ficha técnica de rack selectivo, perchas 500 kg/nivel, stock para entrega inmediata, cobertura nacional). Nada se envía sin tu revisión."

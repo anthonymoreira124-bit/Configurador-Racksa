@@ -1,0 +1,9 @@
+Parámetro,Valor,Explicación
+Tu nombre (firma),Anthony,Reemplaza [Tu nombre] en los mensajes.
+Nombre del remitente,Racksa Ecuador,Nombre que verá el cliente.
+Correos nuevos por día,15,Recomendado 10–20 para no caer en spam (Gmail gratis permite ~100 por día en total).
+Días hábiles para seguimiento 1,3,
+Días hábiles para último seguimiento,7,Se cuentan desde el primer correo.
+Días para cerrar sin respuesta,14,Después de esto la fila pasa a «Perdido / sin respuesta».
+Solo prioridad,"A,B","Prioridades que se contactan automáticamente (A, B o C)."
+Saludo si no hay nombre,equipo de Logística,Se usa cuando la columna «Contacto (nombre)» está vacía.

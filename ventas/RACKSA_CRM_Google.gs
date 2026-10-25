@@ -19,6 +19,7 @@ var NCOL = 21;
 
 function onOpen() {
   SpreadsheetApp.getUi().createMenu('Racksa')
+    .addItem('1. Instalar datos (solo la primera vez)', 'instalar')
     .addItem('Preparar borradores ahora', 'procesar')
     .addSeparator()
     .addItem('Activar todos los días (9:00, lunes a viernes)', 'activar')
@@ -230,3 +231,110 @@ function sumarDias_(a, k) { var d = new Date(a); d.setDate(d.getDate() + k); ret
 function fecha_(d) { return Utilities.formatDate(d, Session.getScriptTimeZone(), 'dd/MM/yyyy'); }
 function agregar_(a, b) { return a ? a + ' · ' + b : b; }
 function aviso_(t) { try { SpreadsheetApp.getUi().alert(t); } catch (e) { Logger.log(t); } }
+
+// ---------- instalación de datos (descarga la base desde GitHub) ----------
+
+var BASE = 'https://raw.githubusercontent.com/anthonymoreira124-bit/configurador-racksa/claude/project-thread-2t3ewj/ventas/datos/';
+var NAVY = '#082A5C', GOLD = '#FAC70C';
+
+function instalar() {
+  var ss = SpreadsheetApp.getActive();
+  ss.setSpreadsheetTimeZone('America/Guayaquil');
+  var crm = ss.getSheetByName('CRM');
+  if (crm && crm.getLastRow() > 1 && crm.getRange('L2:L').getValues().some(function (r) { return r[0]; })) {
+    aviso_('El CRM ya tiene datos de seguimiento. No se reinstaló para no borrar tu trabajo.');
+    return;
+  }
+  var hojas = [['Inicio', 'inicio.csv'], ['Prospectos', 'prospectos.csv'], ['CRM', 'crm.csv'],
+               ['Mensajes', 'mensajes.csv'], ['Config', 'config.csv']];
+  hojas.forEach(function (h, i) {
+    var datos = Utilities.parseCsv(UrlFetchApp.fetch(BASE + h[1]).getContentText('UTF-8'));
+    var sh = ss.getSheetByName(h[0]) || ss.insertSheet(h[0], i);
+    sh.clear(); sh.clearConditionalFormatRules();
+    var ancho = Math.max.apply(null, datos.map(function (r) { return r.length; }));
+    datos = datos.map(function (r) { while (r.length < ancho) r.push(''); return r; });
+    sh.getRange(1, 1, datos.length, ancho).setNumberFormat('@').setValues(datos);
+    if (h[0] !== 'Inicio') {
+      sh.getRange(1, 1, 1, ancho).setBackground(NAVY).setFontColor('#FFFFFF').setFontWeight('bold').setWrap(true);
+      sh.setFrozenRows(1);
+    }
+  });
+  ss.getSheets().forEach(function (sh) {
+    if (['Inicio', 'Resumen', 'Prospectos', 'CRM', 'Mensajes', 'Config'].indexOf(sh.getName()) < 0 && ss.getSheets().length > 5) ss.deleteSheet(sh);
+  });
+  formatear_(ss);
+  aviso_('Datos instalados. Revisa la hoja «Config» y luego usa Racksa > Preparar borradores ahora.');
+}
+
+function formatear_(ss) {
+  var ini = ss.getSheetByName('Inicio');
+  ini.setColumnWidth(1, 30).setColumnWidth(2, 900);
+  ini.getRange('B:B').setWrap(true);
+  ini.getRange('B2').setFontSize(18).setFontWeight('bold').setFontColor(NAVY);
+
+  var p = ss.getSheetByName('Prospectos'), np = p.getLastRow();
+  [70, 70, 80, 110, 110, 260, 190, 180, 220, 230, 200, 230, 220, 230, 260, 120, 120, 220, 140]
+    .forEach(function (w, i) { p.setColumnWidth(i + 1, w); });
+  p.getRange(2, 1, np - 1, 19).setWrap(true).setVerticalAlignment('top');
+  p.setFrozenColumns(2);
+  var reglasP = [];
+  [['A', GOLD], ['B', '#DCE6F5'], ['C', '#EEEEEE']].forEach(function (x) {
+    reglasP.push(SpreadsheetApp.newConditionalFormatRule().whenTextEqualTo(x[0]).setBackground(x[1])
+      .setRanges([p.getRange(2, 2, np - 1, 1)]).build());
+  });
+  p.setConditionalFormatRules(reglasP);
+  if (p.getFilter()) p.getFilter().remove();
+  p.getRange(1, 1, np, 19).createFilter();
+
+  var c = ss.getSheetByName('CRM'), filas = 400;
+  [60, 240, 110, 70, 160, 140, 150, 200, 100, 170, 100, 100, 220, 220, 100, 80, 90, 110, 240, 80, 150]
+    .forEach(function (w, i) { c.setColumnWidth(i + 1, w); });
+  c.setFrozenColumns(2);
+  c.getRange(2, 11, filas, 2).setNumberFormat('dd/mm/yyyy');
+  c.getRange(2, 15, filas, 1).setNumberFormat('dd/mm/yyyy');
+  c.getRange(2, 18, filas, 1).setNumberFormat('"$"#,##0.00');
+  c.getRange(2, 20, filas, 2).setNumberFormat('General');
+  var pasos = c.getRange(2, 20, c.getLastRow() - 1, 1);
+  pasos.setValues(pasos.getValues().map(function (r) { return [r[0] === '' ? 0 : Number(r[0])]; }));
+  var f = [];
+  for (var i = 2; i <= filas + 1; i++) f.push(['=IF(L' + i + '="","",TODAY()-L' + i + ')']);
+  c.getRange(2, 16, filas, 1).setFormulas(f);
+  var est = ['Por contactar', 'Contactado', 'Respondió / interesado', 'Visita agendada', 'Levantamiento en bodega',
+             'Proforma enviada', 'Negociación', 'Ganado', 'Perdido / sin respuesta', 'No aplica'];
+  c.getRange(2, 10, filas, 1).setDataValidation(SpreadsheetApp.newDataValidation().requireValueInList(est, true).build());
+  c.getRange(2, 9, filas, 1).setDataValidation(SpreadsheetApp.newDataValidation()
+    .requireValueInList(['LinkedIn', 'WhatsApp', 'Correo', 'Llamada', 'Visita', 'Referido', 'Feria'], true).build());
+  var r = c.getRange(2, 1, filas, 21), R = SpreadsheetApp.newConditionalFormatRule;
+  c.setConditionalFormatRules([
+    R().whenFormulaSatisfied('=$J2="Ganado"').setBackground('#C6EFCE').setRanges([r]).build(),
+    R().whenFormulaSatisfied('=OR($J2="Perdido / sin respuesta",$J2="No aplica")').setBackground('#EDEDED').setFontColor('#888888').setRanges([r]).build(),
+    R().whenFormulaSatisfied('=AND($O2<>"",$O2<TODAY())').setBackground('#F8CBAD').setRanges([r]).build(),
+    R().whenFormulaSatisfied('=AND($O2<>"",$O2-TODAY()<=3)').setBackground('#FFF2CC').setRanges([r]).build()
+  ]);
+  if (c.getFilter()) c.getFilter().remove();
+  c.getRange(1, 1, filas + 1, 21).createFilter();
+
+  var m = ss.getSheetByName('Mensajes');
+  [180, 90, 260, 520, 420, 380].forEach(function (w, i) { m.setColumnWidth(i + 1, w); });
+  m.getRange(2, 1, m.getLastRow() - 1, 6).setWrap(true).setVerticalAlignment('top');
+
+  var cf = ss.getSheetByName('Config');
+  cf.setColumnWidth(1, 260).setColumnWidth(2, 200).setColumnWidth(3, 520);
+  cf.getRange(2, 2, cf.getLastRow() - 1, 1).setBackground('#FFF7D6');
+
+  var s = ss.getSheetByName('Resumen') || ss.insertSheet('Resumen', 1);
+  s.clear();
+  s.getRange('A1').setValue('Embudo de ventas (CRM)').setFontWeight('bold').setFontSize(14).setFontColor(NAVY);
+  s.getRange('A2:B2').setValues([['Estado', 'Empresas']]).setBackground(NAVY).setFontColor('#FFFFFF').setFontWeight('bold');
+  est.forEach(function (e, k) { s.getRange(3 + k, 1, 1, 2).setValues([[e, '=COUNTIF(CRM!$J:$J,A' + (3 + k) + ')']]); });
+  var k = est.length + 3;
+  s.getRange(k, 1, 2, 2).setValues([['Monto en proformas (sin IVA)', '=SUM(CRM!R:R)'],
+    ['Seguimientos vencidos', '=COUNTIFS(CRM!O:O,"<"&TODAY(),CRM!O:O,"<>")']]);
+  s.getRange('D1').setValue('Prospectos por región').setFontWeight('bold').setFontSize(14).setFontColor(NAVY);
+  s.getRange('D2:E2').setValues([['Región', 'Empresas']]).setBackground(NAVY).setFontColor('#FFFFFF').setFontWeight('bold');
+  ['Costa', 'Sierra', 'Amazonía', 'Insular'].forEach(function (g, j) {
+    s.getRange(3 + j, 4, 1, 2).setValues([[g, '=COUNTIF(Prospectos!$C:$C,D' + (3 + j) + ')']]);
+  });
+  s.setColumnWidth(1, 240).setColumnWidth(4, 160);
+  ss.setActiveSheet(ini);
+}
