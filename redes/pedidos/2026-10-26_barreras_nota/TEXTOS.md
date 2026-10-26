@@ -1,47 +1,47 @@
-# Barreras contra inundación · formato "nota adhesiva" (2026-10-26)
+# Barreras contra inundación · nota (2026-10-26)
 
-Canva: https://www.canva.com/d/wrO4a_b-LuYccrl (DAHZJn9P1tw) · foto WA0089 (técnico instalando barrera)
+Canva: https://www.canva.com/d/wrO4a_b-LuYccrl (DAHZJn9P1tw) · foto WA0089
 
 ## Instagram
-🌧️ Las lluvias ya llegaron. ¿Tu bodega está lista?
+🌧️ Minimiza el impacto del fenómeno de El Niño en tu bodega.
 
-Minimiza el impacto del fenómeno de El Niño con el Sistema de barreras contra inundación de Racksa Ecuador.
-
-✅ Fabricadas en acero inoxidable
+✅ Sistema de barreras contra inundación en acero inoxidable
 ✅ Para bodegas, plantas industriales y oficinas
-✅ Instalación en sitio a nivel nacional
-✅ Protegen tu mercadería y tu operación
+✅ Instalación en sitio con nuestro equipo
+✅ Cobertura a nivel nacional
 
-💡 Actúa antes de la próxima lluvia, no después.
+💡 Diseñamos, implementamos y mantenemos bodegas que producen más.
 
-Racksa Ecuador, soluciones industriales a tu medida.
-
+Racksa Ecuador
+CALIDAD Y CONFIANZA A TIEMPO
 📞 099 182 0185
 📞 099 399 9091
 📞 093 995 7939
 📩 proyectos@racksaecuador.com.ec
-🌐 www.racksaecuador.com.ec
+🌐 https://www.racksaecuador.com.ec
 
-#RacksaEcuador #BarrerasContraInundacion #FenomenoDelNiño #Bodegas #Guayaquil
+#Guayaquil #Quito #Ecuador #Bodegas #Inundaciones
 
 ## LinkedIn
-🌧️ Las lluvias ya llegaron a Guayaquil y a todo el país. ¿Tu bodega está preparada?
+🌧️ Minimiza el impacto del fenómeno de El Niño en tu bodega.
 
-Un solo evento de inundación puede detener la operación y dañar inventario de semanas. Por eso en Racksa Ecuador fabricamos e instalamos Sistemas de barreras contra inundación.
+Las lluvias fuertes ya llegaron a Guayaquil y a todo el país. Una sola entrada de agua puede detener la operación y dañar mercadería y equipos.
 
-✅ Acero inoxidable, resistente a la corrosión
-✅ Diseñadas para bodegas, plantas industriales y oficinas
-✅ Instalación en sitio a nivel nacional
-✅ Protección para tu mercadería, maquinaria y operación
+✅ Sistema de barreras contra inundación en acero inoxidable
+✅ Para bodegas, plantas industriales y oficinas
+✅ Instalación en sitio con nuestro equipo
+✅ Cobertura a nivel nacional
 
-💡 Minimiza el impacto del fenómeno de El Niño en tu bodega: actúa antes de la próxima lluvia.
+¿Tu bodega está lista para la próxima lluvia?
 
-Racksa Ecuador, soluciones industriales a tu medida.
+💡 Diseñamos, implementamos y mantenemos bodegas que producen más.
 
+Racksa Ecuador
+CALIDAD Y CONFIANZA A TIEMPO
 📞 099 182 0185
 📞 099 399 9091
 📞 093 995 7939
 📩 proyectos@racksaecuador.com.ec
-🌐 www.racksaecuador.com.ec
+🌐 https://www.racksaecuador.com.ec
 
-#RacksaEcuador #BarrerasContraInundacion #FenomenoDelNiño #ProteccionIndustrial #Bodegas #Logistica #Guayaquil #Ecuador
+#Inundaciones #FenomenoDelNino #AceroInoxidable #SeguridadIndustrial #Bodegas #Logistica #Guayaquil #Ecuador
