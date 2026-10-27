@@ -17,7 +17,7 @@ V = "banco/videos/"
 TMP = os.path.join(O, "tmp"); os.makedirs(TMP, exist_ok=True)
 # (archivo, inicio, duración, tipo, rótulo)
 TRAMOS = [
-    ("hearth_e29765f4_bodega_antes.mp4", 0.2, 3.0, "antes", None),
+    ("hearth_e29765f4_bodega_antes.mp4", 0.0, 6.1, "antes", None),
     ("hearth_fcd733ee_proyecto_recorrido.mp4", 4.3, 3.2, "despues", ("01", "Rack selectivo")),
     ("hearth_6270bfd0_proyecto_piso.mp4", 2.6, 3.0, "despues", ("02", "Piso epóxico")),
     ("hearth_fc8eae9b_proyecto_escalera.mp4", 0.4, 3.8, "despues", ("03", "Escalera tipo avión")),
@@ -117,7 +117,9 @@ if __name__ == "__main__":
         clips.append(tramo(i, f, t0, dur, tipo)); durs.append(dur)
         cp = capa_antes() if tipo == "antes" else capa_despues(*rot, i == 1)
         p = os.path.join(TMP, f"c{i}.png"); cp.save(p); capas.append(p)
-    pc = os.path.join(TMP, "cierre.png"); cierre().save(pc)
+    # pantalla de cierre enviada por Anthony (2026-10-27) en lugar de la generada
+    pc = os.path.join(TMP, "cierre.png")
+    Image.open(os.path.join(O, "cierre_anthony.jpg")).convert("RGB").resize((W, H), Image.LANCZOS).save(pc)
     run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-t", str(CIERRE), "-i", pc, "-vf",
          f"zoompan=z='1+0.0006*on':d=1:s={W}x{H}:fps=30,format=yuv420p", "-c:v", "libx264", "-crf", "16",
          os.path.join(TMP, "cierre.mp4")])
@@ -143,6 +145,6 @@ if __name__ == "__main__":
     out = os.path.join(O, "RACKSA_proyecto_antes_despues.mp4")
     run(["ffmpeg", "-v", "error", "-y"] + ins + ["-f", "lavfi", "-t", f"{total:.2f}", "-i", "anullsrc=r=44100:cl=stereo",
          "-filter_complex", ";".join(fc), "-map", f"[{acc}]", "-map", f"{n + len(capas)}:a",
-         "-c:v", "libx264", "-b:v", "4.5M", "-maxrate", "5M", "-bufsize", "9M", "-preset", "slow",
+         "-c:v", "libx264", "-b:v", "3.8M", "-maxrate", "4.5M", "-bufsize", "9M", "-preset", "slow",
          "-pix_fmt", "yuv420p", "-c:a", "aac", "-shortest", "-movflags", "+faststart", out])
     print("total", round(total, 2))

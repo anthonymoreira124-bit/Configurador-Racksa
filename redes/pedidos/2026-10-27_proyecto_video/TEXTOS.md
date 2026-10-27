@@ -1,6 +1,6 @@
 # Proyecto completo · video "barrido antes / después con rótulos numerados" (2026-10-27)
 
-Video: RACKSA_proyecto_antes_despues.mp4 (1080x1920, 17 s, audio en silencio para agregar música en IG)
+Video: RACKSA_proyecto_antes_despues.mp4 (1080x1920, 20 s, antes 6 s completos, cierre de Anthony, audio en silencio para agregar música en IG)
 
 ## Instagram (reel)
 Así recibimos esta bodega… y así la entregamos 🏭
