@@ -18,9 +18,9 @@ Contacto común para todos los captions:
 ## A · Pallets plásticos · formato "sala de exhibición" (WA0181 grande, WA0179 pequeña)
 
 ### Instagram
-La base de tu bodega también merece estar en exhibición 🖼️
+Pallets plásticos bajo importación para tu bodega 🖼️
 
-✅ Pallets plásticos para tu operación diaria
+✅ Pallets plásticos bajo importación
 ✅ Combinan con tu rack selectivo
 ✅ Entrega a nivel nacional
 
@@ -39,9 +39,9 @@ CALIDAD Y CONFIANZA A TIEMPO
 ### LinkedIn
 Todo empieza por la base.
 
-Antes del rack, del montacargas o del sistema de picking, la carga se apoya en un pallet. Por eso en Racksa Ecuador también lo tenemos en cuenta cuando diseñamos tu bodega.
+Antes del rack, del montacargas o del sistema de picking, la carga se apoya en un pallet. En Racksa Ecuador traemos pallets plásticos bajo importación y los entregamos en cualquier provincia del país.
 
-✅ Pallets plásticos para tu operación diaria
+✅ Pallets plásticos bajo importación
 ✅ Combinan con tu rack selectivo
 ✅ Entrega a nivel nacional
 
@@ -64,11 +64,11 @@ CALIDAD Y CONFIANZA A TIEMPO
 ## B · Rack selectivo · formato "rótulos de pasillo colgantes" (WA0185 + WA0186)
 
 ### Instagram
-Pallets o cajas: un mismo rack lo ordena todo 📦
+Rack selectivo para tu bodega, a nivel nacional 📦
 
 ✅ Acceso directo a cada pallet
 ✅ Hasta 2.000 kg por nivel
-✅ Diseño a la medida de tu bodega
+✅ Diseño, suministro e instalación a nivel nacional
 
 💡eñamos, implementamos y mantenemos bodegas que producen más.
 
@@ -83,9 +83,9 @@ CALIDAD Y CONFIANZA A TIEMPO
 #Guayaquil #Quito #Ecuador #Bodegas #RackSelectivo
 
 ### LinkedIn
-Pasillo A: pallets. Pasillo B: cajas. El mismo sistema.
+Rack selectivo.
 
-El rack selectivo se adapta a la forma en que almacenas, con acceso directo a cada pallet y niveles definidos según tu diseño.
+El sistema más versátil para almacenar: acceso directo a cada pallet y niveles definidos según tu diseño. Lo diseñamos, suministramos e instalamos en cualquier provincia del Ecuador.
 
 ✅ Acceso directo a cada pallet
 ✅ Hasta 2.000 kg por nivel (2 pallets de 1.000 kg)
@@ -107,13 +107,13 @@ CALIDAD Y CONFIANZA A TIEMPO
 
 ---
 
-## C · Montaje de racks · formato "entrada de diccionario" (WA0086 + WA0088)
+## C · Montajes y desmontajes · formato "entrada de diccionario" (a nivel nacional, loc. adv.) (WA0086 + WA0088)
 
 ### Instagram
-mon·ta·je (s. m.): cuando tu rack llega, se arma, se ancla y queda listo para cargar 🔧
+Montajes y desmontajes de racks a nivel nacional 🔧
 
-✅ Suministro del material
-✅ Montaje por nuestro equipo
+✅ Montajes de racks y perchas
+✅ Desmontajes de racks
 ✅ En cualquier provincia del Ecuador
 
 💡eñamos, implementamos y mantenemos bodegas que producen más.
@@ -129,15 +129,15 @@ CALIDAD Y CONFIANZA A TIEMPO
 #Guayaquil #Quito #Ecuador #Bodegas #MontajeDeRacks
 
 ### LinkedIn
-Montaje: la palabra que define si tu bodega arranca a tiempo.
+A nivel nacional: así trabajamos.
 
-Entregamos el material y nuestro equipo lo arma en sitio, con placas base de anclaje y arriostramiento, para que la bodega quede lista para operar. Lo hacemos a nivel nacional.
+Montamos racks y perchas en tu bodega y también desmontamos tu rack cuando te mudas o reorganizas, sin importar en qué ciudad estés.
 
-✅ Suministro del material
-✅ Montaje e instalación por nuestro equipo
+✅ Montajes de racks y perchas
+✅ Desmontajes de racks
 ✅ Cobertura en todo Ecuador
 
-¿Tu próximo proyecto de bodega ya tiene quién lo monte?
+¿Tienes una bodega por armar o por desmontar?
 
 💡eñamos, implementamos y mantenemos bodegas que producen más.
 
@@ -149,18 +149,19 @@ CALIDAD Y CONFIANZA A TIEMPO
 📩 proyectos@racksaecuador.com.ec
 🌐 https://www.racksaecuador.com.ec
 
-#MontajeDeRacks #RackSelectivo #Almacenamiento #Bodegas #Logistica #Intralogistica #Guayaquil #Ecuador
+#MontajeDeRacks #DesmontajeDeRacks #Almacenamiento #Bodegas #Logistica #Intralogistica #Guayaquil #Ecuador
 
 ---
 
 ## D · Perchas de picking · formato "etiqueta de góndola en el riel" (WA0082)
 
 ### Instagram
-Todo a la mano, en perchas que aguantan el día a día 🗂️
+Todo a la mano con perchas de picking, entrega a nivel nacional 🗂️
 
-✅ 500 kg por nivel
+✅ 300 kg por nivel
 ✅ Azul + naranja, modulares
 ✅ Contamos con el stock para entrega inmediata
+✅ Entrega a nivel nacional
 
 💡eñamos, implementamos y mantenemos bodegas que producen más.
 
@@ -179,9 +180,10 @@ El picking rápido empieza por tener cada pieza a la vista.
 
 Nuestras perchas de picking ordenan repuestos, herramientas y producto suelto en bodegas, talleres y locales técnicos.
 
-✅ 500 kg por nivel
+✅ 300 kg por nivel
 ✅ Azul + naranja, modulares
 ✅ Contamos con el stock para entrega inmediata
+✅ Entrega a nivel nacional
 
 ¿Cuánto tiempo pierde tu equipo buscando una pieza?
 
