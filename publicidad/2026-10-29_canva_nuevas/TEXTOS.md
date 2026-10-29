@@ -24,7 +24,7 @@ Pallets plásticos bajo importación para tu bodega 🖼️
 ✅ Combinan con tu rack selectivo
 ✅ Entrega a nivel nacional
 
-💡eñamos, implementamos y mantenemos bodegas que producen más.
+💡 Diseñamos, implementamos y mantenemos bodegas que producen más.
 
 Racksa Ecuador
 CALIDAD Y CONFIANZA A TIEMPO
@@ -47,7 +47,7 @@ Antes del rack, del montacargas o del sistema de picking, la carga se apoya en u
 
 ¿Ya revisaste en qué estado están los pallets de tu bodega?
 
-💡eñamos, implementamos y mantenemos bodegas que producen más.
+💡 Diseñamos, implementamos y mantenemos bodegas que producen más.
 
 Racksa Ecuador
 CALIDAD Y CONFIANZA A TIEMPO
@@ -70,7 +70,7 @@ Rack selectivo para tu bodega, a nivel nacional 📦
 ✅ Hasta 2.000 kg por nivel
 ✅ Diseño, suministro e instalación a nivel nacional
 
-💡eñamos, implementamos y mantenemos bodegas que producen más.
+💡 Diseñamos, implementamos y mantenemos bodegas que producen más.
 
 Racksa Ecuador
 CALIDAD Y CONFIANZA A TIEMPO
@@ -93,7 +93,7 @@ El sistema más versátil para almacenar: acceso directo a cada pallet y niveles
 
 ¿Cómo está organizada hoy tu bodega: por pallet, por caja o mezclado?
 
-💡eñamos, implementamos y mantenemos bodegas que producen más.
+💡 Diseñamos, implementamos y mantenemos bodegas que producen más.
 
 Racksa Ecuador
 CALIDAD Y CONFIANZA A TIEMPO
@@ -116,7 +116,7 @@ Montajes y desmontajes de racks a nivel nacional 🔧
 ✅ Desmontajes de racks
 ✅ En cualquier provincia del Ecuador
 
-💡eñamos, implementamos y mantenemos bodegas que producen más.
+💡 Diseñamos, implementamos y mantenemos bodegas que producen más.
 
 Racksa Ecuador
 CALIDAD Y CONFIANZA A TIEMPO
@@ -139,7 +139,7 @@ Montamos racks y perchas en tu bodega y también desmontamos tu rack cuando te m
 
 ¿Tienes una bodega por armar o por desmontar?
 
-💡eñamos, implementamos y mantenemos bodegas que producen más.
+💡 Diseñamos, implementamos y mantenemos bodegas que producen más.
 
 Racksa Ecuador
 CALIDAD Y CONFIANZA A TIEMPO
@@ -163,7 +163,7 @@ Todo a la mano con perchas de picking, entrega a nivel nacional 🗂️
 ✅ Contamos con el stock para entrega inmediata
 ✅ Entrega a nivel nacional
 
-💡eñamos, implementamos y mantenemos bodegas que producen más.
+💡 Diseñamos, implementamos y mantenemos bodegas que producen más.
 
 Racksa Ecuador
 CALIDAD Y CONFIANZA A TIEMPO
@@ -187,7 +187,7 @@ Nuestras perchas de picking ordenan repuestos, herramientas y producto suelto en
 
 ¿Cuánto tiempo pierde tu equipo buscando una pieza?
 
-💡eñamos, implementamos y mantenemos bodegas que producen más.
+💡 Diseñamos, implementamos y mantenemos bodegas que producen más.
 
 Racksa Ecuador
 CALIDAD Y CONFIANZA A TIEMPO
