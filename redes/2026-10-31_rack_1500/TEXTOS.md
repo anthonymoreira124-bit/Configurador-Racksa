@@ -1,7 +1,7 @@
 # Rack selectivo · proyecto de +1500 posiciones pallet (montaje EN CURSO) · 2026-10-31
 
-Piezas: A_poster_de_pelicula.jpg · B_tira_de_pelicula.jpg · C_mapa_cobertura.jpg · RACKSA_rack_1500_trailer.mp4 (reel 33 s, música original sin derechos)
-Estado: esperando el OK de Anthony y la fecha para programar. No programar antes.
+Piezas: A_poster_de_pelicula.jpg · B_tira_de_pelicula.jpg · C_antes_hoy_mapa_provincias.jpg · RACKSA_rack_1500_trailer.mp4 (reel 33 s, música original sin derechos)
+Estado: aprobado 2026-10-31. Anthony las sube él mismo: NO programar.
 
 ## A · Póster de película
 
@@ -94,10 +94,10 @@ CALIDAD Y CONFIANZA A TIEMPO
 
 #RackSelectivo #MontajeDeRacks #Almacenamiento #Bodegas #Logistica #Intralogistica #Guayaquil #Ecuador
 
-## C · Mapa de cobertura
+## C · Antes / hoy + mapa de las 24 provincias
 
 ### Instagram
-Aquí van +1500 posiciones pallet 📍
+Antes: una nave vacía. Hoy: +1500 posiciones en montaje 📍
 
 ✅ Montaje de rack selectivo en curso
 ✅ Material y equipo propio en sitio
@@ -117,7 +117,7 @@ CALIDAD Y CONFIANZA A TIEMPO
 #Guayaquil #Quito #Ecuador #Bodegas #RackSelectivo
 
 ### LinkedIn
-Aquí van +1500 posiciones pallet.
+Antes, una nave vacía. Hoy, +1500 posiciones pallet en montaje.
 
 Una nave industrial que hoy estamos llenando de rack selectivo. Llegamos a cualquier provincia con material, montaje y equipo propio.
 
