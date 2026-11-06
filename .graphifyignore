@@ -1,0 +1,8 @@
+.claude/
+libs/
+fuentes/
+graphify-out/
+*.png
+*.html
+sw.js
+scripts/
